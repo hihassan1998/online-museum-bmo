@@ -39,9 +39,10 @@ To get started with SwEstate, follow these steps:
    ```
 
 2. **Navigate to the project directory:**
-'''bash
+   
+```bash
 cd online-museum-bmo
-'''
+ ```
 ### Usage
 Open your web browser and navigate to the local server URL where the project is hosted.
 Use the search bar to find specific objects or articles.
