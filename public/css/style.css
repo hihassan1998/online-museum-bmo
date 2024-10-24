@@ -1,0 +1,122 @@
+/* General page styling */
+html {
+    /* background-image: url('../../img/250x250/minnestavla_anders_petters.jpg'); */
+    background-image: url('../../img/BMOcover.jpg');
+    /* Replace with your parallax image path */
+    background-attachment: fixed;
+    /* This creates the parallax effect */
+    background-position: center;
+    background-repeat: repeat;
+    /* background-color: #d3d3d3; */
+    /* Light gray background */
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+
+body {
+    width: 80vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+
+    /* padding-top: 50px; */
+    /* align-items: center; */
+    align-self: center;
+}
+
+
+/** Header and footer styling */
+
+
+
+/* Main content styling */
+main {
+    flex: 1;
+    padding: 45px;
+}
+
+.home1-h1 {
+    font-size: 50px;
+}
+
+/* Responsive design */
+@media (max-width: 786px) {
+    .home-h1 {
+        font-size: 35px;
+    }
+
+    .home1-h1 {
+        font-size: 30px;
+        justify-self: center;
+    }
+
+    .main {
+        justify-items: center;
+    }
+
+    .om-content {
+        justify-self: center;
+    }
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/** Maggy article styling */
+
+.img-maggy {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.col-mag {
+    flex: 1;
+    min-width: 150px;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.col-mag h1,
+h2 {
+    text-align: center;
+}
+
+.bildtext-m {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/** styling Om-sidan  */
+
+.om-content {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 5px #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+ul > {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Optional: Remove default padding */
+    margin: 0; /* Optional: Remove default margin */
+}

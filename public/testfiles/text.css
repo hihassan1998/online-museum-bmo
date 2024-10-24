@@ -1,0 +1,31 @@
+
+
+.main-home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.image-container {
+    display: flex;
+    height: 60vh; /* 80% of viewport height */
+    width: 100%; /* Full width */
+}
+
+.image-container img {
+    width: 33.33%; /* Each image takes one-third of the width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Ensure images cover their area without distortion */
+    border-right: 2px solid whitesmoke;
+}
+
+.text-container {
+    height: 10vh; /* 20% of viewport height */
+    width: 100%; /* Full width */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    text-align: center; /* Center the text */
+    display: flex; /* Use flexbox to center content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}

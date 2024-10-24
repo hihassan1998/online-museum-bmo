@@ -1,0 +1,58 @@
+/**home.css*/
+.special-body {
+    background-color: transparent;
+    background-size: cover;
+    background-position: right;
+    color: white;
+}
+
+
+.home-h1 {
+    font-size: 5rem;
+    /* margin-bottom: 0px; */
+    text-align: left;
+}
+
+/* Further minimize for mobile screens */
+@media (max-width: 600px) {
+    .home-h1 {
+        font-size: 3rem;
+    }
+}
+
+.main-home {
+    padding: 20px;
+    background-color: transparent;
+}
+
+.text-container {
+    text-align: left;
+}
+
+
+
+.col-hem {
+    padding: 20px;
+    /* background-color: #fff; Background color for content */
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.home-p p {
+    color: black;
+}
+
+/* 
+.main-home{
+    z-index: 999;
+    background-image: url('../img/550/minnestavla_anders_petters.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    }
+
+.col-hem {
+    flex: 1;
+    min-width: 150px;
+    padding: 0 15px;
+    text-align: left;
+} */

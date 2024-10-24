@@ -1,0 +1,76 @@
+.article {
+    margin-top: 90px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    overflow: auto;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+/* Responsive design */
+@media (max-width: 786px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article {
+        justify-self: center;
+        width: 100%;
+    }
+}
+
+
+
+.article h2 {
+    margin-top: 0;
+}
+
+.article p {
+    margin: 5px 0;
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    gap: 2px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Styling the aside section */
+aside {
+    top: 250px;
+    position: sticky;
+    flex-basis: 10%;
+    max-width: 30%;
+    padding: 1em;
+    border-left: 4px solid #67677a;
+    margin-top: 150px;
+    margin-bottom: 12px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    height: 300px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+
+}
+
+aside li {
+    margin-bottom: 10px;
+}

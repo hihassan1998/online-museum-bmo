@@ -1,0 +1,19 @@
+/** header.css */
+
+.row-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.header-title {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.bold-font {
+    font-weight: 600;
+}
