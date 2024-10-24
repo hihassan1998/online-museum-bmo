@@ -1,9 +1,17 @@
-# Begravningsmuseet Online (BMO)
+![bmo_obj](https://github.com/user-attachments/assets/53567ab6-9f93-473c-9b7d-45b458671bdd)# Begravningsmuseet Online (BMO)
 
 ### Description
 Begravningsmuseet Online (BMO) is a web application designed to provide users with information about burial artifacts and articles. The project aims to enhance user experience (UX) through effective navigation and a gallery of images associated with the museum's objects.
 
-### Visual overview
+### Visual overview:
+#### Home page
+![bmo_home](https://github.com/user-attachments/assets/79881b98-b0e4-427c-a165-1b75ee8239c5)
+#### About page
+![bmo_om](https://github.com/user-attachments/assets/dda426b0-aea0-4add-b297-96ce9488047b)
+#### Search page
+![bmo_ser](https://github.com/user-attachments/assets/840e76ee-1266-4eae-ace6-28cfefb5eb93)
+#### Display of objects of the museum
+![bmo_obj](https://github.com/user-attachments/assets/52b3f430-d2c5-40e8-aac2-6fc317a8450a)
 
 ### Features
 - Search Functionality: Users can search for objects and articles by entering keywords. Search results are displayed with brief information, allowing users to navigate directly to specific entries.
