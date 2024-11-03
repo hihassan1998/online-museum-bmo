@@ -8,10 +8,12 @@ ini_set('display_errors', '1');
 
 
 // Create a DSN for the user database using its filename
-$fileName = "../db/bmo.sqlite"; // Adjust as necessary
-if ($_SERVER["SERVER_NAME"] !== "www.student.bth.se") {
-    $fileName = "C:\db\bmo.sqlite";
-}
+// $fileName = "../db/bmo.sqlite"; // Adjust as necessary
+// if ($_SERVER["SERVER_NAME"] !== "www.student.bth.se") {
+//     $fileName = "C:\db\bmo.sqlite";
+// }
+// For deploying on render
+$fileName = getenv('DB_PATH') ?: __DIR__ . "/../db/bmo.sqlite";
 $dsn = "sqlite:$fileName";
 // echo getcwd();
 // echo $dsn;
