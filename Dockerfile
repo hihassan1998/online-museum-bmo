@@ -17,6 +17,7 @@ COPY view /var/www/html/view
 COPY config /var/www/html/config
 COPY db /var/www/html/db
 COPY img /var/www/html/img
+COPY index.php /var/www/html/index.php
 
 # Set an environment variable for the SQLite database path
 ENV DB_PATH /var/www/html/db/bmo.sqlite
